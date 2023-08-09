@@ -7,7 +7,9 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
+#install.packages("deSolve")
 library(deSolve)
+#install.packages("kableExtra")
 library(kableExtra)
 ```
 
